@@ -7,3 +7,4 @@ else:
 #     print("No")
 # else :
 #     print(num)
+#both portion works properly

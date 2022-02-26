@@ -27,12 +27,23 @@
 #         print(counter,end=",")
 
 # d
-for count in range(54,-19,-18):
-    if count<0:
-        for count in range(-27,-64,-18):
-            if count==-63:
-                print(count)
-            else:
-                print(count,end=",")
-    else :
-        print(count,end=",")
+# for count in range(54,-19,-18):
+#     if count<0:
+#         for count in range(-27,-64,-18):
+#             if count==-63:
+#                 print(count)
+#             else:
+#                 print(count,end=",")
+#     else :
+#         print(count,end=",")
+var=18
+var1=-9
+var2=1
+var3=-1
+for count in range(1,7,1):
+    if count%2!=0:
+        print(var2*var)
+        var2+=1
+    if count%2==0:
+        print((var3*var)+var1)
+        var3-=1

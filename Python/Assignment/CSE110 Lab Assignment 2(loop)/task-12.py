@@ -7,4 +7,4 @@ while i<10:
     if number==0:
         break
     i-=1
-print(number)
+print(count)

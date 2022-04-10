@@ -1,12 +1,12 @@
-myList = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-index1 = 0
-index2 = 0
-index1 = 1
-while (index1 < 10):
-    myList[index1] = index1 + 4
-    index2 = 1
-    while (index2 < index1):
-        myList[index1] = myList[index1-1] - myList[index2-1] - index1
-        index2+=1
-    print(myList[index1])
-index1+=1
+string=input("Enter string: ")
+string=string.lower()
+dict1={}
+for i in string:
+    if i not in dict1:
+        if i==" ":
+            continue
+        else:
+            dict1[i]=1
+    else:
+        dict1[i]+=1
+print(dict1)

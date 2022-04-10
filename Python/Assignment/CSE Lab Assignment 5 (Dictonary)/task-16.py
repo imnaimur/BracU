@@ -1,0 +1,17 @@
+myList = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+index1 = 0
+index2 = 0
+index1 = 1
+while(index1<10):
+    # print()
+    myList[index1] = index1+4
+    # print(myList[index1])
+    index2 = 1
+    print(index2)
+    while(index2<index1):
+        
+        myList[index1] = myList[index1-1] - myList[index2-1]-index1
+        index2 = index2+1
+        print(index2)
+        # print(myList[index1])
+    index1 = index1+1 

@@ -10,5 +10,5 @@ maxv=value[0]
 for i in value:
     if int(i)>int(maxv):
         maxv=i
-name=key[len(maxv)-1]
+name=key[value.index(maxv)]
 print(f"The highest selling book genre is {name} and the number of books sold are {maxv}.")

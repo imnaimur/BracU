@@ -8,4 +8,6 @@ def additional(val1, val2):
     return sum1
 
 
-additional(n1, n2)
+
+b=additional(n1,n2)
+print(b)

@@ -1,0 +1,9 @@
+i=input()
+i=i.split(" ")
+i=tuple(i)
+a,b,c,d=i
+a=int(a)
+b=int(b)
+c=int(c)
+d=int(d)
+print("Difference =",(a*b-c*d))
